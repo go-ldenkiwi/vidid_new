@@ -58,8 +58,8 @@ Desktop.ini
 # Project settings
 ./site/
 
-*.pyc
-db.sqlite3
-cdh
-__pycache__
-settings.py
+# *.pyc
+# db.sqlite3
+# cdh
+# __pycache__
+# settings.py
