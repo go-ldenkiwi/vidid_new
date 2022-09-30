@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 from django.urls import reverse_lazy
 from pathlib import Path
-
 # Build paths inside the project like this: BASE_DIR / "directory"
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 STATICFILES_DIRS = [str(BASE_DIR / "static")]
@@ -59,7 +58,7 @@ if env_file.exists():
 # Raises ImproperlyConfigured exception if SECRET_KEY not in os.environ
 SECRET_KEY = "1234"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 # Application definition
 
